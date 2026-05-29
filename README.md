@@ -1,15 +1,15 @@
-# [GitHub Stats Visualization](https://github.com/jstrieb/github-stats)
+# [GitHub Stats Visualization](https://github.com/j-r-jones/github-stats)
 
 <!--
 https://github.community/t/support-theme-context-for-images-in-light-vs-dark-mode/147981/84
 -->
 
 <div align="center">
-<a href="https://github.com/jstrieb/github-stats">
-<img src="https://github.com/jstrieb/github-stats/blob/generated/overview.svg#gh-dark-mode-only" />
-<img src="https://github.com/jstrieb/github-stats/blob/generated/languages.svg#gh-dark-mode-only" />
-<img src="https://github.com/jstrieb/github-stats/blob/generated/overview.svg#gh-light-mode-only" />
-<img src="https://github.com/jstrieb/github-stats/blob/generated/languages.svg#gh-light-mode-only" />
+<a href="https://github.com/j-r-jones/github-stats">
+<img src="https://github.com/j-r-jones/github-stats/blob/generated/overview.svg#gh-dark-mode-only" />
+<img src="https://github.com/j-r-jones/github-stats/blob/generated/languages.svg#gh-dark-mode-only" />
+<img src="https://github.com/j-r-jones/github-stats/blob/generated/overview.svg#gh-light-mode-only" />
+<img src="https://github.com/j-r-jones/github-stats/blob/generated/languages.svg#gh-light-mode-only" />
 </a>
 </div>
 
@@ -110,9 +110,9 @@ and retrieve the images.
       mine saved along with the GitHub entry in my password manager.
    1. Some users report that it can take some time for the personal access token
       to take effect. For more information, see
-      [#30](https://github.com/jstrieb/github-stats/issues/30).
+      [#30](https://github.com/j-r-jones/github-stats/issues/30).
 1. Create a copy of this repository by clicking
-   [here](https://github.com/jstrieb/github-stats/generate).
+   [here](https://github.com/j-r-jones/github-stats/generate).
    - Equivalently, click the big, green "Use this template" button at the top
      left of the page, then click "Create a new repository."
    - Note: this is **not** the same as forking a copy because it copies
@@ -145,7 +145,7 @@ and retrieve the images.
        linguist](https://github.com/github-linguist/linguist/blob/537297cdae3ab05f8d5dd1c03627a5bd73707b19/lib/linguist/languages.yml)
        (which powers their language analysis on the back end).
    - Lists for `EXCLUDE_REPOS` and `EXCLUDE_LANGS` can use globbing patterns.
-     For example, to exclude all repos by user "jstrieb", add `jstrieb/*` to
+     For example, to exclude all repos by user "j-r-jones", add `j-r-jones/*` to
      `EXCLUDE_REPOS`.
    - These can also be set directly in [the Actions
      workflow](.github/workflows/main.yml), but you should set them as secrets
@@ -171,7 +171,7 @@ and retrieve the images.
    ![](https://github.com/[USERNAME]/github-stats/blob/generated/overview.svg#gh-light-mode-only)
    ![](https://github.com/[USERNAME]/github-stats/blob/generated/languages.svg#gh-dark-mode-only)
    ![](https://github.com/[USERNAME]/github-stats/blob/generated/languages.svg#gh-light-mode-only)
-   [Created by `jstrieb/github-stats`.](https://github.com/jstrieb/github-stats)
+   [Created by `j-r-jones/github-stats`.](https://github.com/j-r-jones/github-stats)
    ```
 1. Star this repo if you like it!
 
@@ -179,7 +179,7 @@ and retrieve the images.
 ## Analyzing the Data
 
 Using the `github-stats` CLI (available on the
-[releases](https://github.com/jstrieb/github-stats/releases/latest) page) to
+[releases](https://github.com/j-r-jones/github-stats/releases/latest) page) to
 run locally, you can dump raw statistics data to a JSON file using the
 `--json-output-file` command-line argument. 
 
@@ -188,7 +188,7 @@ run locally, you can dump raw statistics data to a JSON file using the
 sudo curl \
     --location \
     --output '/usr/local/bin/github-stats' \
-    'https://github.com/jstrieb/github-stats/releases/latest/download/github-stats_x86_64-linux'
+    'https://github.com/j-r-jones/github-stats/releases/latest/download/github-stats_x86_64-linux'
 sudo chmod +x /usr/local/bin/github-stats
 
 github-stats --version
@@ -238,7 +238,7 @@ If this project is useful to you, please support it!
 - Star the repository (and follow me on GitHub for more)
 - Share and upvote on sites like Twitter, Reddit, and Hacker News
 - Report any bugs, glitches, or errors that you find
-- [Check out my other projects](https://jstrieb.github.io/projects/)
+- [Check out my other projects](https://j-r-jones.github.io/projects/)
 
 These things motivate me to keep sharing what I build, and they provide
 validation that my work is appreciated! They also help me improve the project.
@@ -254,6 +254,8 @@ instead make a generous donation to one of the following organizations.
 
 
 ## Project Status
+
+This is a copy of the original github-stats project by [jstrieb](https://github.com/jstrieb/github-stats).
 
 This project is actively maintained, but not actively developed. In other
 words, I will fix bugs, but will rarely add features (if at all). If there are
